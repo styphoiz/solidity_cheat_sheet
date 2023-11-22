@@ -1,5 +1,5 @@
 ```
-contract Example{
+contract <span style="color:blue">Example</span>{
     function example1() private pure {
         // private: call me within this contract
         // pure: I cannot read/write to storage
