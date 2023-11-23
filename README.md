@@ -15,5 +15,13 @@ contract Example{
     function example2() external {
         // external: call me from outside this contract
     }
+
+    receive() external payable{
+        // no calldata necessary here
+        // just send a value on the message call
+    }
+    function pay() external payable {
+        // in this case, we target pay with a value
+    }
 }
 ```
