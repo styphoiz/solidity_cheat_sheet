@@ -17,6 +17,8 @@ contract Example{
     }
     function example5() public virtual {
         // virtual: override a function within a contract
+        // needs to be declared as virtual in parent contract
+        // can use override in child contract
     }
 
     receive() external payable{
