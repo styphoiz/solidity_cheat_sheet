@@ -12,8 +12,11 @@ contract Example{
         // public: call me inside and outside this contract
         // payable: send me some ether!
     }
-    function example2() external {
+    function example4() external {
         // external: call me from outside this contract
+    }
+    function example5() public virtual {
+        // virtual: override a function within a contract
     }
 
     receive() external payable{
